@@ -68,3 +68,4 @@ df = df.loc[:, ["ADDRESS","CITY","ZIPCODE","LOCATION","DATESOLD","MONTH","PRICE"
 
 # export cleaned dataframe
 df.to_csv("redfin_data_cleaned.csv",index=False)
+
