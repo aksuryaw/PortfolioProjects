@@ -154,18 +154,3 @@ JOIN COVIDPROJECT.dbo.CovidVaccinations vac
 	AND death.date = vac.date
 WHERE death.iso_code NOT LIKE '%owid%'
 ORDER BY pop_over_65 DESC
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
